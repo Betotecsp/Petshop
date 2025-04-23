@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fefefe;
+  color: #333;
+}
+
+.navbar {
+  background-color: #ff7f50;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff8f0;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #ff7f50;
+  margin-bottom: 1.5rem;
+}
+
+.agendamentos-list {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.botao {
+  background-color: #ff7f50;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #e96d40;
+}
+
+.rodape {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #777;
+}
