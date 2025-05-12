@@ -111,28 +111,6 @@ JWT_SECRET=segredo_super_secreto
     └── assets/
 ```
 
----
-
-## 🧠 Requisitos Atendidos
-
-### Funcionais
-- [x] Cadastro de usuários
-- [x] Agendamento com imagem
-- [x] CRUD completo de agendamentos
-
-### Não Funcionais
-- [x] Senhas criptografadas com bcrypt
-- [x] Autenticação com JWT
-- [x] Uploads salvos localmente (pasta `/uploads`)
-
----
-
-## 🌟 Funcionalidade Extra
-
-- [x] Upload com preview de imagem (client-side)
-- [x] Interface personalizada com tema visual customizado
-
----
 
 ## 🔗 Link do Repositório
 
